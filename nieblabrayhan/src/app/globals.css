@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #C2E4FB;
+  --foreground: #182228;
+  --darkBase: #1B262C;
+  --midBluBase: #3282B8;
+}
+
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.bg-db{
+  background: var(--darkBase) ;
+}
+.bg-mbb{
+  background: var(--midBluBase) ;
+}
