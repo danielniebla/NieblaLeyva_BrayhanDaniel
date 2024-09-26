@@ -1,11 +1,10 @@
 import Head from 'next/head';
-import localFont from "next/font/local";
 import "./globals.css";
 
 
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode;
 }) {
